@@ -1,0 +1,25 @@
+{
+  "name": "crunch-kata-master",
+  "version": "1.0.0",
+  "description": "Welcome to the Crunch Kata! The purpose of this exercise is evaluate your skills in:",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp karma",
+    "start": "nodemon server/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.3.0",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.0.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.10.2"
+  }
+}
